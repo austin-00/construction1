@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mishoudin Construction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">Mishoudin Construction</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="about.html">About Us</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html#history">Our History</a></li>
+                        <li><a href="about.html#team">Our Team</a></li>
+                        <li><a href="about.html#vision">Vision and Mission</a></li>
+                    </ul>
+                </li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+            <div class="mobile-menu-btn">☰</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-header">
+            <h2>Get In Touch With Us</h2>
+            <p>We're ready to help with your construction needs</p>
+        </section>
+
+        <div class="contact-container">
+            <section class="contact-form-section">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="017XXXXXXXX">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In:</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="construction">Construction & Building</option>
+                            <option value="design">Building Design and Development</option>
+                            <option value="plan">Plan Passing Service</option>
+                            <option value="consultancy">Consultancy</option>
+                            <option value="concrete">Supply Ready Mix Concrete</option>
+                            <option value="estimation">Estimation</option>
+                            <option value="contracting">General Contracting</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+
+            <section class="contact-info">
+                <h3>Our Contact Information</h3>
+                <div class="info-card">
+                    <h4><i class="icon">📍</i> Office Address</h4>
+                    <address>
+                        Changaraj Student<br>
+                        Boruba Baan Stahansiulgaraj<br>
+                        Tonyail S-adatt 1964
+                    </address>
+                </div>
+                <div class="info-card">
+                    <h4><i class="icon">📞</i> Phone</h4>
+                    <p>01761311927</p>
+                </div>
+                <div class="info-card">
+                    <h4><i class="icon">✉️</i> Email</h4>
+                    <p>mishoudinconstruction@gmail.com</p>
+                </div>
+                <div class="info-card">
+                    <h4><i class="icon">🌐</i> Website</h4>
+                    <p>www.mishoudin.construction.bd</p>
+                </div>
+                <div class="info-card">
+                    <h4><i class="icon">🕒</i> Business Hours</h4>
+                    <p>Sunday - Thursday: 9:00 AM - 6:00 PM</p>
+                    <p>Friday - Saturday: Closed</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="map-section">
+            <h3>Our Location</h3>
+            <div class="map-placeholder">
+                <!-- In a real implementation google Map here -->
+                <p>Map would be displayed here showing our office location</p>
+                <p>Changaraj Student, Boruba Baan Stahansiulgaraj, Tonyail S-adatt 1964</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>MS Mishoudin Construction has been serving Bangladesh since 1964 with quality construction services.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>Changaraj Student, Boruba Baan Stahansiulgaraj</p>
+                <p>Tonyail S-adatt 1964</p>
+                <p>01761311927</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Mishoudin Construction. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
